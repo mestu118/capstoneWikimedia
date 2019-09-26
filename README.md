@@ -1,2 +1,3 @@
 # capstoneWikimedia
-Capstone course - Wikimedia 
+Capstone course - Wikimedia
+Collaborators: Arushi, Ieshan, Dieter, Mark 
