@@ -6,7 +6,7 @@ The purpose of this project is to develop transformation matrices between two la
 # Folders
 1. ContentTranslation
 
-⋅⋅⋅Notebook to obtain transformation using Content Translations
+⋅⋅⋅Notebook to obtain transformation using Content Translations 
 
 2. FasText
 
