@@ -1,4 +1,4 @@
-# Capstone Cource - Wikimedia
+# Capstone Course - Wikimedia
 # Collaborators: Arushi, Ieshan, Dieter, Mark 
 
 The purpose of this project is to develop transformation matrices between two langugaes and evaluate them based on cosine similarities. 
