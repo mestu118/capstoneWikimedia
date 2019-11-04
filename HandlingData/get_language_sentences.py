@@ -46,8 +46,10 @@ def converToList(allLangs):
 if __name__=="__main__":
 	spark = SparkSession.builder.appName('getPairs').getOrCreate()
 	inputFile = sys.argv[1]
+	sourceLang = sys.argv[2]
+	targetLang = sys.argv[3]
 	df = spark.read.csv(inputFile, schema ='id STRING, language STRING, value STRING')
-	getPairs(df, 'fr', 'ru')
+	getPairs(df, sourceLang, targetLang)
 	#allLanguages = df.select('language').distinct().collect()
 	#print(allLanguages)	
 	#allLanguages = converToList(allLanguages)
